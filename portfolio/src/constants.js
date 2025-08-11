@@ -55,10 +55,11 @@ import sr from './assets/education/sr_clg.jpg';
 // import removebgLogo from './assets/work_logo/remove_bg.png';
 
 import aiprep from './assets/work_logo/ai-prep.png'
+import prepWise from './assets/work_logo/prepWise.png'
 import taskFlow from './assets/work_logo/taskFlow.png'
 import wanderlust  from './assets/work_logo/wanderlust.png'
 import threeD from './assets/work_logo/threeD.png'
-import url from './assets/work_logo/url.png'
+import url from './assets/work_logo/url2.png'
 import tm from './assets/work_logo/TaskManager.png'
 export const SkillsInfo = [
   {
@@ -212,7 +213,17 @@ export const SkillsInfo = [
   
   export const projects = [
     {
-      id: 0,
+  id: 0,
+  title: "prep-Wise(AI-Mock Interview Platform)",
+  description:
+    "An innovative React app that simulates real-world mock interviews powered by Google Gemini AI. Features seamless authentication, dynamic interview customization, and AI-driven personalized feedback to prepare users for technical interviews.",
+  image: prepWise, // (make sure you import or define this image)
+  tags: ["React.js","typeScript", "Clerk", "Shadcn UI", "Firebase Firestore", "Google Gemini AI"],
+  github: "https://github.com/Swati-Kumari-Das/prepWise",
+  webapp: "https://ai-mock-interview-react-ba784.web.app/"
+},
+    {
+      id: 1,
       title: "TaskFlow-Task Management & Project Collaboration Tool",
       description:
         "A full-stack Task Management and Project Collaboration Tool designed for teams and admins to efficiently manage, assign, track, and complete tasks.",
@@ -222,7 +233,7 @@ export const SkillsInfo = [
       webapp: "https://taskflow-nu-taupe.vercel.app",
     },
     {
-      id: 1,
+      id: 2,
       title: "AI-powered Interview Preparation Website",
       description:
         "Built an AI-powered Interview Preparation App using the MERN stack and Gemini API for smart question-answer generation.",
@@ -233,7 +244,7 @@ export const SkillsInfo = [
     },
 
      {
-      id: 2,
+      id: 3,
       title: "WanderLust-Travel Accommodation Website",
       description:
         "A full-stack web application inspired by Airbnb, where users can list their own accommodations or browse stays offered by others. The platform supports secure authentication, rich image uploads, and a review system for better trust and experience.",
@@ -244,7 +255,7 @@ export const SkillsInfo = [
     },
 
     {
-      id: 3,
+      id: 4,
       title: "3D Gaming Landing Page",
       description:
         "A futuristic 3D gaming website. This site features smooth scroll-based animations, interactive 3D elements, and modern design principles to create an engaging user experience.",
@@ -255,7 +266,7 @@ export const SkillsInfo = [
       webapp: "https://gamingui.netlify.app/",
     },
      {
-      id: 4,
+      id: 5,
       title: "URL Shortener",
       description:
         "A full-stack URL shortener web app built using the MERN stack.",
@@ -267,7 +278,7 @@ export const SkillsInfo = [
     },
 
      {
-      id: 5,
+      id: 6,
       title: "Task Manager ",
       description:"A simple full-stack task management application built with React (frontend) and Express (backend).Users can add, view, update status, and delete tasks. Now with basic offline support via localStorage caching .",
       image: tm,
